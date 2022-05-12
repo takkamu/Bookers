@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   get 'top' => 'homes#top'
   get 'index' => 'books#index'
   post 'books' => 'books#create'
-  get 'show' => 'books#show'
-  get 'edit' => 'books#edit'
+  get 'books/:id' => 'books#show'
+  get 'edit' => 'books#edit', as: 'book'
 end
