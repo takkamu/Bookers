@@ -1,6 +1,10 @@
-<h1>ショー</h1>
+<% if flash[:notice] %>
+  <p class="alert alert-success"><%= notice %></p>
+<% end %>
+
 <h2>title</h2>
 <p><%= @book.title %></p>
 
 <h2>body</h2>
 <p><%= @book.body %></p>
+<%= link_to "編集", edit_book_path(@book.id) %>
