@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+
+.book {
+    /*font-family: verdana, arial, helvetica, sans-serif;*/
+    background-color: #fff;
+    font-size: 13px;
+    font-family: verdana, arial, helvetica, sans-serif;
+    line-height: 18px;
+    margin: 33px;
+    display: block;
+}
+
+.message {
+    margin: 33px;
+}
+
+.show-comment {
+    margin: 33px;
+    line-height: 50px;
+}
+
+.success {
+    color: green;
+}
+
+.form {
+    display: block;
+    margin-top: 15px;
+    /*margin-bottom: 15px*/
+}
+
+.field {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
